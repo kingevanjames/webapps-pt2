@@ -6,6 +6,13 @@ Rails.application.routes.draw do
 
   resources "companies"
   # get("/companies", {:controller => "companies", :action => "index"})
+  # details page for companies:
+  # get("/companies/:id", {:controller => "companies", :action => "show"})
+  # NOTE: anything that is database based can just be done with the resource entry on line 7, do not need this commented out get commands
+  #new company form
+ 
+ 
+ 
   resources "contacts"
   # get("/contacts", {:controller => "contacts", :action => "index"})
 
